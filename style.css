@@ -1,0 +1,38 @@
+body{
+    background-color: #212121;
+    font-family: BigNoodleTitling, serif;
+    color: #a3a3a3;
+}
+a{
+    font-size: 20px;
+    text-decoration: none; 
+    color: black;
+    margin: 20px;
+}
+a:hover{
+    color: #db2323;
+}
+h1{
+    font-size: 140px;
+    color: #7302fc;
+    margin: auto;
+}
+#menü{
+    border-radius: 2px;
+    height: 20px;
+    width: 100%; 
+    background-color: #2ad4be;
+}
+#banner{
+    text-align: center;
+    background-color: #02fc49;
+        
+    margin: 20px;
+    height: 150px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+nav{
+    text-align: center;
+    height: 30px;
+}
