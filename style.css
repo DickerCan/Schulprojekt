@@ -1,10 +1,10 @@
 body{
     background-color: #212121;
-    font-family: BigNoodleTitling, serif;
+    font-family: MV Boli, serif;
     color: #a3a3a3;
 }
 a{
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none; 
     color: black;
     margin: 20px;
@@ -13,8 +13,8 @@ a:hover{
     color: #db2323;
 }
 h1{
-    font-size: 140px;
-    color: #7302fc;
+    font-size: 100px;
+    color: #4f4f4f;
     margin: auto;
 }
 #menü{
@@ -25,7 +25,8 @@ h1{
 }
 #banner{
     text-align: center;
-    background-color: #02fc49;
+    background: url(Pictures/Banner_Home.jpg);
+    background-size: cover;
         
     margin: 20px;
     height: 150px;
@@ -35,4 +36,18 @@ h1{
 nav{
     text-align: center;
     height: 30px;
+}
+.thema{
+    border: solid black 1px;
+    border-radius: 20px;
+    height: 300px;
+    width: 44%;
+    margin: 3%;
+    float: left;
+    box-sizing: border-box;
+    animation-name: great;
+}
+@keyframe great {
+    height: 320px;
+    animation-duration: 1s;
 }
