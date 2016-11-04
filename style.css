@@ -1,6 +1,6 @@
 body{
     background-color: #212121;
-    font-family: MV Boli, serif;
+    font-family: Impact, serif;
     color: #a3a3a3;
 }
 a{
@@ -9,13 +9,19 @@ a{
     color: black;
     margin: 20px;
 }
-a:hover{
+.a:hover{
     color: #db2323;
 }
 h1{
     font-size: 100px;
     color: #4f4f4f;
     margin: auto;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    color:  #2ad4be;
 }
 #menü{
     border-radius: 2px;
@@ -45,9 +51,63 @@ nav{
     margin: 3%;
     float: left;
     box-sizing: border-box;
-    animation-name: great;
+    transition: 0.3s;
+    background-color: #363535;
 }
-@keyframe great {
-    height: 320px;
-    animation-duration: 1s;
+.thema:hover{
+    width: 46%;
+    margin: 2%;
+    height: 312px;
+    background-color: #494a4a;
+}.tema{
+    border: solid black 1px;
+    border-radius: 20px;
+    height: 300px;
+    width: 44%;
+    margin: 3%;
+    float: left;
+    box-sizing: border-box;
+    transition: 0.3s;
+    background-color: #363535;
+}
+.tema:hover{
+    width: 46%;
+    margin: 2%;
+    height: 312px;
+    background-color: #494a4a;
+}
+.pick{
+    height: 120px;
+    width: 100%;
+    background: url(Pictures/keil.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.pica{
+    height: 120px;
+    width: 100%;
+    background: url(Pictures/Amano.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.picg{
+    height: 120px;
+    width: 100%;
+    background: url(Pictures/geweih.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.pic{
+    height: 120px;
+    width: 100%;
+    background: url(Pictures/bloddy.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.text{
+    height: 180px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
 }
