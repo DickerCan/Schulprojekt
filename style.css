@@ -9,6 +9,13 @@ a{
     color: black;
     margin: 20px;
 }
+table,tr,td{
+    font-size: 20px;
+    padding: 20px;
+}
+table{
+    width: 50%;
+}
 .a:hover{
     color: #db2323;
 }
@@ -59,22 +66,6 @@ nav{
     margin: 2%;
     height: 312px;
     background-color: #494a4a;
-}.tema{
-    border: solid black 1px;
-    border-radius: 20px;
-    height: 300px;
-    width: 44%;
-    margin: 3%;
-    float: left;
-    box-sizing: border-box;
-    transition: 0.3s;
-    background-color: #363535;
-}
-.tema:hover{
-    width: 46%;
-    margin: 2%;
-    height: 312px;
-    background-color: #494a4a;
 }
 .pick{
     height: 120px;
@@ -110,4 +101,12 @@ nav{
     margin-left: 5%;
     margin-right: 5%;
     text-align: justify;
+}
+.inf{
+   width: 75%; 
+}
+.bild{
+    float: right;
+    margin-top: 80px;
+    border-radius: 4px;
 }
